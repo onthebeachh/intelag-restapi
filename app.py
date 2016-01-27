@@ -1,75 +1,10 @@
 
-data = [ {
-    "recipe" : {
-      "uri" : "http://www.edamam.com/ontologies/edamam.owl#recipe_c468dc28f8b64bb711125cc150b15c25",
-      "label" : "Grilled Deviled Chickens Under a Brick",
-      "image" : "https://www.edamam.com/web-img/5f5/5f51c89f832d50da84e3c05bef3f66f9.jpg",
-      "source" : "Martha Stewart",
-      "sourceIcon" : "http://www.marthastewart.com/sites/all/themes/marthastewart/images/favicon.ico",
-      "url" : "http://www.marthastewart.com/recipe/grilled-deviled-chickens-under-a-brick",
-      "shareAs" : "http://www.edamam.com/recipe/grilled-deviled-chickens-under-a-brick-c468dc28f8b64bb711125cc150b15c25/chicken",
-      "yield" : 4.0,
-      "dietLabels" : [ "Low-Carb" ],
-      "healthLabels" : [ "Paleo", "Dairy-Free", "Gluten-Free", "Egg-Free", "Peanut-Free", "Tree-Nut-Free", "Soy-Free", "Fish-Free", "Shellfish-Free" ],
-      "cautions" : [ ],
-      "ingredientLines" : [ "4 baby chickens (poussins) or cornish hens (about 1 1/4 pounds each), or 4 chicken breast halves", "3 lemons, plus wedges for garnish", "4 cloves garlic, peeled and smashed", "1 tablespoon crushed red-pepper flakes, or to taste", "1 tablespoon finely chopped fresh thyme", "1 tablespoon finely chopped fresh rosemary", "1/2 cup olive oil", "Salt, to taste" ],
-      "ingredients" : [ {
-        "text" : "4 baby chickens (poussins) or cornish hens (about 1 1/4 pounds each), or 4 chicken breast halves",
-        "quantity" : 5.0,
-        "measure" : "lb",
-        "food" : "chickens",
-        "weight" : 2267.96
-      }, {
-        "text" : "3 lemons, plus wedges for garnish",
-        "quantity" : 3.0,
-        "measure" : "lemon",
-        "food" : "lemons",
-        "weight" : 174.0
-      }, {
-        "text" : "3 lemons, plus wedges for garnish",
-        "quantity" : 1.0,
-        "measure" : "wedge",
-        "food" : "lemons",
-        "weight" : 7.0
-      }, {
-        "text" : "4 cloves garlic, peeled and smashed",
-        "quantity" : 4.0,
-        "measure" : "clove",
-        "food" : "garlic",
-        "weight" : 12.0
-      }, {
-        "text" : "1 tablespoon crushed red-pepper flakes, or to taste",
-        "quantity" : 1.0,
-        "measure" : "tbsp",
-        "food" : "red pepper flake",
-        "weight" : 5.3
-      }, {
-        "text" : "1 tablespoon finely chopped fresh thyme",
-        "quantity" : 1.0,
-        "measure" : "tbsp",
-        "food" : "fresh thyme",
-        "weight" : 2.4
-      }, {
-        "text" : "1 tablespoon finely chopped fresh rosemary",
-        "quantity" : 1.0,
-        "measure" : "tbsp",
-        "food" : "fresh rosemary",
-        "weight" : 1.7
-      }, {
-        "text" : "1/2 cup olive oil",
-        "quantity" : 0.5,
-        "measure" : "cup",
-        "food" : "olive oil",
-        "weight" : 108.0
-      }, {
-        "text" : "Salt, to taste",
-        "quantity" : 0.0,
-        "measure" : "medium",
-        "food" : "salt",
-        "weight" : 2.7997088
-      } ]
-    }
-  }
+data = [ 
+    {"sensor_id":"1","type":"charge","value":"4.025","date":"2016-01-27 11:34:17"},{"sensor_id":"1","type":"ground_humidity_10","value":"1.98","date":"2016-01-27 11:34:17"},{"sensor_id":"1","type":"ground_humidity_20","value":"0.99","date":"2016-01-27 11:34:17"},{"sensor_id":"1","type":"ground_humidity_30","value":"1.98","date":"2016-01-27 11:34:17"},{"sensor_id":"1","type":"ec","value":"0","date":"2016-01-27 11:34:17"},
+    {"sensor_id":"1","type":"ph","value":"3.16002","date":"2016-01-27 11:34:17"},{"sensor_id":"1","type":"temperature","value":"18.9","date":"2016-01-27 11:34:17"},{"sensor_id":"1","type":"humidity","value":"72.4","date":"2016-01-27 11:34:17"},{"sensor_id":"1","type":"water_lost","value":"11","date":"2016-01-27 11:34:17"},{"sensor_id":"1","type":"charge","value":"4.091","date":"2016-01-26 21:27:23"},{"sensor_id":"1","type":"ground_humidity_10","value":"100","date":"2016-01-26 21:27:23"},{"sensor_id":"1","type":"ground_humidity_20","value":"100","date":"2016-01-26 21:27:23"},{"sensor_id":"1","type":"ground_humidity_30","value":"100","date":"2016-01-26 21:27:23"},{"sensor_id":"1","type":"ec","value":"0","date":"2016-01-26 21:27:23"},{"sensor_id":"1","type":"temperature","value":"22.7","date":"2016-01-26 21:27:23"},{"sensor_id":"1","type":"humidity","value":"76.8","date":"2016-01-26 21:27:23"},{"sensor_id":"1","type":"water_lost","value":"11","date":"2016-01-26 21:27:23"},{"sensor_id":"1","type":"charge","value":"4.093","date":"2016-01-26 21:12:21"},{"sensor_id":"1","type":"ground_humidity_10","value":"100","date":"2016-01-26 21:12:21"},{"sensor_id":"1","type":"ground_humidity_20","value":"100","date":"2016-01-26 21:12:21"},{"sensor_id":"1","type":"ground_humidity_30","value":"100","date":"2016-01-26 21:12:21"},{"sensor_id":"1","type":"ec","value":"0","date":"2016-01-26 21:12:21"},
+    {"sensor_id":"1","type":"ph","value":"11.33583","date":"2016-01-26 21:12:21"},{"sensor_id":"1","type":"temperature","value":"23.3","date":"2016-01-26 21:12:21"},{"sensor_id":"1","type":"humidity","value":"72.9","date":"2016-01-26 21:12:21"},{"sensor_id":"1","type":"water_lost","value":"11","date":"2016-01-26 21:12:21"},{"sensor_id":"1","type":"charge","value":"4.09","date":"2016-01-26 19:42:23"},{"sensor_id":"1","type":"ground_humidity_10","value":"100","date":"2016-01-26 19:42:23"},{"sensor_id":"1","type":"ground_humidity_20","value":"100","date":"2016-01-26 19:42:23"},{"sensor_id":"1","type":"ground_humidity_30","value":"100","date":"2016-01-26 19:42:23"},{"sensor_id":"1","type":"ec","value":"0","date":"2016-01-26 19:42:23"},
+    {"sensor_id":"1","type":"ph","value":"14","date":"2016-01-26 19:42:23"},
+    {"sensor_id":"1","type":"temperature","value":"28","date":"2016-01-26 19:42:23"},{"sensor_id":"1","type":"humidity","value":"64","date":"2016-01-26 19:42:23"},{"sensor_id":"1","type":"water_lost","value":"22","date":"2016-01-26 19:42:23"},{"sensor_id":"1","type":"charge","value":"4.074","date":"2016-01-26 19:27:24"},{"sensor_id":"1","type":"ground_humidity_10","value":"100","date":"2016-01-26 19:27:24"},{"sensor_id":"1","type":"ground_humidity_20","value":"100","date":"2016-01-26 19:27:24"},{"sensor_id":"1","type":"ground_humidity_30","value":"100","date":"2016-01-26 19:27:24"},{"sensor_id":"1","type":"temperature","value":"29.1","date":"2016-01-26 19:27:24"},{"sensor_id":"1","type":"humidity","value":"70.5","date":"2016-01-26 19:27:24"},{"sensor_id":"1","type":"water_lost","value":"0","date":"2016-01-26 19:27:24"},{"sensor_id":"1","type":"charge","value":"4.079","date":"2016-01-26 19:12:20"}
 ]
 
 # FLASK BLUEMIX
@@ -85,7 +20,7 @@ os.chdir('static')
 def Welcome():
     return app.send_static_file('index.html')
 
-@app.route('/recipes', methods=['GET'])
+@app.route('/sensors', methods=['GET'])
 def get_tasks():
     return jsonify({'data': data})
 
